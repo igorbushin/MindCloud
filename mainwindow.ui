@@ -16,9 +16,6 @@
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="GraphView" name="graphView"/>
-    </item>
-    <item>
      <widget class="QLineEdit" name="lineEdit">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -27,6 +24,9 @@
        </sizepolicy>
       </property>
      </widget>
+    </item>
+    <item>
+     <widget class="GraphView" name="graphView"/>
     </item>
    </layout>
   </widget>

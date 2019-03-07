@@ -21,7 +21,7 @@ signals:
 public slots:
     void changeSelectedNode(bool isSelected, NodeModel *nodeModel = nullptr);
     void changeSelectedNodeText(const QString &text);
-    void createNode(const QPointF &position, const QString &text = "?", int ID = NodeModel::genNewID(), bool isSelected = false);
+    void createNode(const QPointF &position, const QString &text = "?", int ID = NodeModel::genNewID(), bool isSelected = true);
     void linkSelectedNodes();
     void deleteSelectedNodes();
     void deleteSelectedLinks();

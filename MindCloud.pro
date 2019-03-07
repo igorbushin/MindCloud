@@ -50,9 +50,11 @@ OTHER_FILES += \
     MindCloud.db
 
 # Also need add install step
-copyDataBase.path = $${OUT_PWD}
-copyDataBase.files = MindCloud.db
-INSTALLS += copyDataBase
+#copyDataBaseOut.path = $${OUT_PWD}
+#copyDataBaseOut.files = $${PWD}/MindCloud.db
+#copyDataBaseIn.path = $${PWD}
+#copyDataBaseIn.files = $${OUT_PWD}/MindCloud.db
+#INSTALLS += copyDataBaseOut
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
